@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    color: blue;
+    font-size: 12vw;
+    margin: 0;
+    font-family: monospace;
+}
+
+body>p {
+    font-size: 3vw;
+}
+
+select, button {
+    border: 0.2vw solid #000;
+    min-width: 22vw;
+    padding: 1vw;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 1vw;
+    border-radius: 1vw;
+}
+select:focus {
+    outline: none;
+}
+button {
+    border-color:red;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
