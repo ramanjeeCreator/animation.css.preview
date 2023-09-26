@@ -11,9 +11,12 @@ btn.addEventListener('click', () => {
 
     let addClass = document.querySelector('select').value;
     console.log(addClass);
-    changeIt.removeAttribute('class');
+    // changeIt.removeAttribute('class');
     changeIt.setAttribute('class', `animate__animated`);
-    setTimeout(()=>{
+    setTimeout(() => {
         changeIt.classList.add(addClass);
-    },100);
+    }, 100);
+    setTimeout(() => {
+        changeIt.removeAttribute('class');
+    }, 1400)
 });
